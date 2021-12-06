@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIEMANIA</title>
+    <link rel="stylesheet" href="style.css">
+    <!---  Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS (auto play in js) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bxs-movie'></i>Movies
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Menu-->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#Coming">Coming</a></li>
+
+
+        </ul>
+        <a href="#" class="btn">Sign In</a>
+
+
+    </header>
+    <!--- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="./image/home1.jpg" alt="">
+                <div class="home-text">
+                    <span>Squid Game</span>
+                    <h1>Play or <br>Die </h1>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+
+
+                </div>
+
+            </div>
+            <!---Box 2-->
+            <div class="swiper-slide container">
+                <img src="./image/home2.jpg" alt="">
+                <div class="home-text">
+                    <span>Narcos</span>
+                    <h1> <br> </h1>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+
+                </div>
+
+            </div>
+            <!---Box 3-->
+
+            <div class="swiper-slide container">
+                <img src="./image/home3.jpg" alt="">
+                <div class="home-text">
+                    <span>Elite</span>
+                    <h1> <br> </h1>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </section>
+    <!---Movies-->
+    <section class="movies" id="movies">
+        <h2 class="heading">Opening This Week</h2>
+        <div class="movies-container">
+            <div class=" box">
+                <div class="box-img">
+
+
+                    <img src="./image/m1.jpg" alt="">
+
+                </div>
+                <h3>Wanda Vision</h3>
+                <span>111min | Action</span>
+            </div>
+            <div class="box">
+                <div class="box-img">
+
+
+                    <img src="./image/m2.jpg" alt="">
+
+                </div>
+                <h3>Leon</h3>
+                <span>111min | Action</span>
+            </div>
+            <div class="box">
+                <div class="box-img">
+
+
+                    <img src="./image/m3.jpg" alt="">
+
+                </div>
+                <h3>The Invisible Man</h3>
+                <span>111min | Action</span>
+            </div>
+            <div class="box">
+                <div class="box-img">
+
+
+                    <img src="./image/m4.jpg" alt="">
+
+                </div>
+                <h3>Quiet Place</h3>
+                <span>111min | Action</span>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+
+
+                    <img src="./image/m5.jpg" alt="">
+
+                </div>
+                <h3>The Shining</h3>
+                <span>111min | Action</span>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+
+
+                    <img src="./image/m6.jpg" alt="">
+
+                </div>
+                <h3>Heaters</h3>
+                <span>111min | Action</span>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+
+
+                    <img src="./image/m7.jpg" alt="">
+
+                </div>
+                <h3>Home Alone</h3>
+                <span>111min | Action</span>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+
+
+                    <img src="./image/m8.jpg" alt="">
+
+                </div>
+                <h3>The Prestige</h3>
+                <span>111min | Action</span>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+
+
+                    <img src="./image/m9.jpg" alt="">
+
+                </div>
+                <h3>Kill Bill</h3>
+                <span>111min | Action</span>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+
+                    <img src="./image/m10.jpg" alt="">
+
+                </div>
+                <h3>Godzilla</h3>
+                <span>111min | Action</span>
+            </div>
+
+        </div>
+
+    </section>
+    <!----Coming part-->
+    <section class="coming" id="coming">
+        <h2 class="heading">Coming Soon</h2>
+
+        <!----coming container-->
+        <div class="coming-container swiper">
+            <div class="swiper-wrapper">
+                <div class=" box">
+                    <div class="box-img">
+
+
+                        <img src="./image/coming1.jpg" alt="">
+
+                    </div>
+                    <h3>Little Women</h3>
+                    <span>111min | Action</span>
+                </div>
+                <div class=" box">
+                    <div class="box-img">
+
+
+                        <img src="./image/coming2.jpg" alt="">
+
+                    </div>
+                    <h3>Iron Man</h3>
+                    <span>111min | Action</span>
+                </div>
+                <div class=" box">
+                    <div class="box-img">
+
+
+                        <img src="./image/coming3.jpg" alt="">
+
+                    </div>
+                    <h3>The Greatest Showman</h3>
+                    <span>111min | Action</span>
+                </div>
+                <div class=" box">
+                    <div class="box-img">
+
+
+                        <img src="./image/coming4.jpg" alt="">
+
+                    </div>
+                    <h3>The Falcon</h3>
+                    <span>111min | Action</span>
+                </div>
+
+                <div class=" box">
+                    <div class="box-img">
+
+
+                        <img src="./image/coming5.jpg" alt="">
+
+                    </div>
+                    <h3>Fury</h3>
+                    <span>111min | Action</span>
+                </div>
+
+                <div class=" box">
+                    <div class="box-img">
+
+
+                        <img src="./image/coming6.jpg" alt="">
+
+                    </div>
+                    <h3>Civil War</h3>
+                    <span>111min | Action</span>
+                </div>
+
+                <div class=" box">
+                    <div class="box-img">
+
+
+                        <img src="./image/coming7.jpg" alt="">
+
+                    </div>
+                    <h3>Joker</h3>
+                    <span>111min | Action</span>
+                </div>
+
+                <div class=" box">
+                    <div class="box-img">
+
+
+                        <img src="./image/coming8.jpg" alt="">
+
+                    </div>
+                    <h3>Paul</h3>
+                    <span>111min | Action</span>
+                </div>
+
+                <div class=" box">
+                    <div class="box-img">
+
+
+                        <img src="./image/coming9.jpg" alt="">
+
+                    </div>
+                    <h3>Parasite</h3>
+                    <span>111min | Action</span>
+                </div>
+
+                <div class=" box">
+                    <div class="box-img">
+
+                        <img src="./image/coming10.jpg" alt="">
+
+                    </div>
+                    <h3>Alice in Wonderland</h3>
+                    <span>111min | Action</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!---- Link to custom JS-->
+    <script src="main.js"></script>
+
+
+
+
+</body>
+
+</html>
